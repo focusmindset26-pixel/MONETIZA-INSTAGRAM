@@ -15,12 +15,17 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             <Zap className="w-3 h-3 fill-[#F1261D]" /> OFERTA POR TIEMPO LIMITADO
           </div>
 
-          <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2rem,5vw,3rem)] leading-[0.95] text-white uppercase mb-2">
+          <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2rem,5vw,3rem)] leading-[0.95] text-white uppercase mb-3">
             EMPIEZA A CONSTRUIR HOY.
           </h2>
-          <p className="text-sm text-[#C7C7C7] max-w-[480px] mx-auto leading-relaxed">
-            No necesitas miles de seguidores. Necesitas una cuenta con dirección, contenido y una oferta que tenga sentido.
-          </p>
+          <div className="max-w-[520px] mx-auto space-y-1.5">
+            <p className="font-['Bebas_Neue',sans-serif] text-lg sm:text-xl text-white tracking-[0.5px] uppercase leading-tight">
+              NO NECESITAS MILES DE SEGUIDORES. NECESITAS CONSTRUIR UN ACTIVO DIGITAL.
+            </p>
+            <p className="text-xs sm:text-sm text-[#C7C7C7] leading-relaxed">
+              Una cuenta con dirección, contenido estratégico y una oferta digital capaz de convertir atención en oportunidades de ingresos.
+            </p>
+          </div>
 
           <ul className="list-none flex flex-col gap-2.5 my-6 sm:my-8 text-left text-[0.95rem] font-semibold text-[#F5F5F5]">
             <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
