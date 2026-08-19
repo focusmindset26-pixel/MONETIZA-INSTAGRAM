@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monetiza Instagram | Sistema Faceless de 7 Días</title>
+    <script>
+      // Non-intrusive environment safeguard
+      try {
+        if (typeof window !== 'undefined' && window.fetch) {
+          const descriptor = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (descriptor && !descriptor.writable && descriptor.configurable) {
+            let _fetchRef = window.fetch;
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get() { return _fetchRef; },
+              set(fn) { _fetchRef = fn; }
+            });
+          }
+        }
+      } catch (e) {}
+    </script>
+    <meta name="description" content="Construye en 7 días las bases de una cuenta faceless preparada para crecer y monetizar." />
+    <meta property="og:title" content="Monetiza Instagram | Sistema Faceless de 7 Días" />
+    <meta property="og:description" content="Construye en 7 días las bases de una cuenta faceless preparada para crecer y monetizar." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Resource Preconnects for instant asset delivery -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://i.imgur.com" crossorigin>
+    <link rel="dns-prefetch" href="https://i.imgur.com">
+
+    <!-- Preload Critical LCP Hero Product Image -->
+    <link rel="preload" as="image" href="https://i.imgur.com/EYc9nBR.png" fetchpriority="high">
+
+    <!-- Google Fonts: Bebas Neue & Plus Jakarta Sans with display=swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#020202] text-[#F5F5F5] antialiased selection:bg-[#D71912] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

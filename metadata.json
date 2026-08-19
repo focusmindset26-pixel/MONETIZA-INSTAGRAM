@@ -1,0 +1,6 @@
+{
+  "name": "Monetiza Instagram - Sistema Faceless",
+  "description": "Sistema digital de 7 días para construir y monetizar cuentas temáticas faceless en Instagram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
