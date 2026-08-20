@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onImageClick }) => {
       <div className="w-full max-w-[860px] mx-auto px-5 relative z-10">
         {/* Badge */}
         <div className="inline-block bg-[#22C55E]/10 border border-[#22C55E]/40 text-[#22C55E] px-3.5 py-1.5 rounded text-xs font-extrabold tracking-[1.5px] uppercase mb-5">
-          DEJA DE CONSUMIR MÉTODOS. EMPIEZA A CONSTRUIR.
+          EL NEGOCIO DEL FUTURO YA EMPEZÓ.
         </div>
 
         {/* H1 */}

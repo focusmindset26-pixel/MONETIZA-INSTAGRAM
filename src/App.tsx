@@ -1,6 +1,7 @@
 import React, { useState, Suspense, lazy } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { NewRulesSection } from './components/NewRulesSection';
 import { TimeAchievementSection } from './components/TimeAchievementSection';
 import { TransformationSection } from './components/TransformationSection';
 import { ProductAndBonuses } from './components/ProductAndBonuses';
@@ -34,6 +35,9 @@ export default function App() {
           onOpenCheckout={handleOpenCheckout}
           onImageClick={() => setIsImageModalOpen(true)}
         />
+
+        {/* 1.5. New Rules Section (IA + DISTRIBUCIÓN + MONETIZACIÓN) */}
+        <NewRulesSection />
 
         {/* 2. Time + Achievement Section (TIEMPO + LOGRO) */}
         <TimeAchievementSection />
