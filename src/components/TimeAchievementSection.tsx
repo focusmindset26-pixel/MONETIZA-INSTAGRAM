@@ -13,12 +13,12 @@ export const TimeAchievementSection: React.FC = () => {
 
   return (
     <section className="py-16 md:py-24 border-b border-white/5 bg-[#020202] relative overflow-hidden">
-      {/* Subtle ambient red glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[280px] bg-[#D71912]/5 blur-[120px] pointer-events-none rounded-full" />
+      {/* Subtle ambient green glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[280px] bg-[#22C55E]/5 blur-[120px] pointer-events-none rounded-full" />
 
       <div className="w-full max-w-[860px] mx-auto px-5 relative z-10 text-center">
         {/* Eyebrow */}
-        <div className="inline-block bg-[#D71912]/10 border border-[#D71912]/40 text-[#F1261D] px-3 py-1 rounded text-[11px] font-extrabold tracking-[1.5px] uppercase mb-4">
+        <div className="inline-block bg-[#22C55E]/10 border border-[#22C55E]/40 text-[#22C55E] px-3 py-1 rounded text-[11px] font-extrabold tracking-[1.5px] uppercase mb-4">
           UNA RUTA CLARA. UN OBJETIVO CONCRETO.
         </div>
 
@@ -36,18 +36,18 @@ export const TimeAchievementSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 text-left max-w-[780px] mx-auto mb-10">
           
           {/* BLOQUE 1 — TIEMPO */}
-          <div className="bg-[#0E0E0E] border border-white/10 hover:border-[#D71912]/50 rounded-xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-24 h-24 bg-[#D71912]/10 blur-2xl rounded-full pointer-events-none" />
+          <div className="bg-[#0E0E0E] border border-white/10 hover:border-[#22C55E]/50 rounded-xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] relative overflow-hidden group">
+            <div className="absolute top-0 right-0 w-24 h-24 bg-[#22C55E]/10 blur-2xl rounded-full pointer-events-none" />
 
             <div>
               <div className="flex items-center gap-2 text-xs font-bold tracking-[1.5px] text-[#8F8F8F] uppercase mb-4">
-                <Clock className="w-4 h-4 text-[#F1261D]" />
+                <Clock className="w-4 h-4 text-[#22C55E]" />
                 <span>TIEMPO DE IMPLEMENTACIÓN</span>
               </div>
 
               {/* Número protagonista */}
               <div className="font-['Bebas_Neue',sans-serif] text-6xl sm:text-7xl lg:text-8xl leading-[0.9] text-white tracking-wide flex items-baseline gap-2 mb-2">
-                <span className="text-[#F1261D]">7</span> DÍAS
+                <span className="text-[#22C55E]">7</span> DÍAS
               </div>
 
               <h3 className="font-['Bebas_Neue',sans-serif] text-xl sm:text-2xl text-[#F5F5F5] tracking-[0.5px] mb-4 uppercase">
@@ -62,8 +62,8 @@ export const TimeAchievementSection: React.FC = () => {
           </div>
 
           {/* BLOQUE 2 — LOGRO */}
-          <div className="bg-[#0E0E0E] border border-white/10 hover:border-[#D71912]/50 rounded-xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-24 h-24 bg-[#D71912]/10 blur-2xl rounded-full pointer-events-none" />
+          <div className="bg-[#0E0E0E] border border-white/10 hover:border-[#22C55E]/50 rounded-xl p-6 sm:p-8 flex flex-col justify-between transition-all duration-300 shadow-[0_10px_30px_rgba(0,0,0,0.6)] relative overflow-hidden group">
+            <div className="absolute top-0 right-0 w-24 h-24 bg-[#22C55E]/10 blur-2xl rounded-full pointer-events-none" />
 
             <div>
               <div className="text-xs font-bold tracking-[1.5px] text-[#8F8F8F] uppercase mb-2">
@@ -99,9 +99,9 @@ export const TimeAchievementSection: React.FC = () => {
         {/* FRANJA FINAL */}
         <div className="max-w-[780px] mx-auto bg-gradient-to-r from-transparent via-[#141414] to-transparent border-y border-white/10 py-5 px-4 text-center">
           <p className="font-['Bebas_Neue',sans-serif] text-xl sm:text-2xl md:text-3xl tracking-[0.5px] text-[#F5F5F5] leading-tight uppercase">
-            EN <span className="text-[#F1261D]">7 DÍAS</span> NO TIENES QUE SABERLO TODO.{' '}
+            EN <span className="text-[#22C55E]">7 DÍAS</span> NO TIENES QUE SABERLO TODO.{' '}
             <span className="block sm:inline">
-              TIENES QUE SABER <span className="text-[#F1261D]">QUÉ HACER DESPUÉS</span>.
+              TIENES QUE SABER <span className="text-[#22C55E]">QUÉ HACER DESPUÉS</span>.
             </span>
           </p>
         </div>

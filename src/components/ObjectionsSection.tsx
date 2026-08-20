@@ -31,7 +31,7 @@ export const ObjectionsSection: React.FC = () => {
           {objections.map((obj, idx) => (
             <div
               key={idx}
-              className="bg-[#0E0E0E] border border-white/10 p-5 rounded-lg transition-all duration-200 hover:border-[#D71912]/40"
+              className="bg-[#0E0E0E] border border-white/10 p-5 rounded-lg transition-all duration-200 hover:border-[#22C55E]/40"
             >
               <h3 className="font-['Bebas_Neue',sans-serif] text-xl text-[#F5F5F5] mb-2 leading-none">
                 {obj.title}

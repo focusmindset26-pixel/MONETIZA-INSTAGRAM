@@ -24,7 +24,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#020202] text-[#F5F5F5] font-['Plus_Jakarta_Sans',sans-serif] selection:bg-[#D71912] selection:text-white pb-14">
+    <div className="min-h-screen bg-[#020202] text-[#F5F5F5] font-['Plus_Jakarta_Sans',sans-serif] selection:bg-[#22C55E] selection:text-black pb-14">
       {/* Brand Top Header */}
       <Header />
 

@@ -9,10 +9,10 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
   return (
     <section className="py-16 md:py-24 border-b border-white/5 bg-[#080808]" id="oferta">
       <div className="w-full max-w-[860px] mx-auto px-5">
-        <div className="bg-gradient-to-b from-[#160505] via-[#0d0d0d] to-[#080808] border-2 border-[#F1261D] rounded-2xl p-6 sm:p-10 max-w-[600px] mx-auto text-center shadow-[0_10px_50px_rgba(215,25,18,0.25)] relative overflow-hidden">
+        <div className="bg-gradient-to-b from-[#06180c] via-[#0d0d0d] to-[#080808] border-2 border-[#22C55E] rounded-2xl p-6 sm:p-10 max-w-[600px] mx-auto text-center shadow-[0_10px_50px_rgba(34,197,94,0.3)] relative overflow-hidden">
           {/* Subtle top banner */}
-          <div className="inline-flex items-center gap-1.5 bg-[#D71912]/20 border border-[#F1261D]/50 text-[#F1261D] text-[11px] font-extrabold uppercase px-3 py-1 rounded-full mb-4 tracking-wider">
-            <Zap className="w-3 h-3 fill-[#F1261D]" /> OFERTA POR TIEMPO LIMITADO
+          <div className="inline-flex items-center gap-1.5 bg-[#22C55E]/20 border border-[#22C55E]/50 text-[#22C55E] text-[11px] font-extrabold uppercase px-3 py-1 rounded-full mb-4 tracking-wider">
+            <Zap className="w-3 h-3 fill-[#22C55E]" /> OFERTA POR TIEMPO LIMITADO
           </div>
 
           <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2rem,5vw,3rem)] leading-[0.95] text-white uppercase mb-3">
@@ -37,7 +37,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             </li>
             <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-[#F1261D] font-bold text-lg">+</span>
+                <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>100 Hooks Faceless</span>
               </div>
               <div className="flex items-center gap-2">
@@ -49,7 +49,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             </li>
             <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-[#F1261D] font-bold text-lg">+</span>
+                <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>50 Ideas de Contenido Faceless</span>
               </div>
               <div className="flex items-center gap-2">
@@ -61,7 +61,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             </li>
             <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-[#F1261D] font-bold text-lg">+</span>
+                <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>50 CTA Que Convierten</span>
               </div>
               <div className="flex items-center gap-2">
@@ -88,9 +88,9 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             href="https://pay.hotmart.com/P107224938O"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full flex items-center justify-center gap-2 bg-gradient-to-b from-[#F1261D] to-[#D71912] text-white font-['Plus_Jakarta_Sans',sans-serif] font-extrabold text-base sm:text-lg uppercase tracking-[0.5px] py-4 px-6 rounded-md border border-white/20 shadow-[0_4px_25px_rgba(241,38,29,0.4)] hover:shadow-[0_6px_35px_rgba(241,38,29,0.65)] hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer text-center"
+            className="w-full flex items-center justify-center gap-2 bg-gradient-to-b from-[#22C55E] to-[#16A34A] text-black font-['Plus_Jakarta_Sans',sans-serif] font-black text-base sm:text-lg uppercase tracking-[0.5px] py-4 px-6 rounded-md border border-white/30 shadow-[0_4px_25px_rgba(34,197,94,0.4)] hover:shadow-[0_6px_35px_rgba(34,197,94,0.65)] hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer text-center"
           >
-            <Download className="w-5 h-5" />
+            <Download className="w-5 h-5 text-black" />
             <span>QUIERO EL SISTEMA COMPLETO</span>
           </a>
 
@@ -112,7 +112,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
 
           <div className="mt-6 pt-5 border-t border-white/10 grid grid-cols-2 gap-2 text-[11px] text-[#8F8F8F] text-left">
             <div className="flex items-center gap-1.5">
-              <Lock className="w-3.5 h-3.5 text-[#F1261D]" />
+              <Lock className="w-3.5 h-3.5 text-[#22C55E]" />
               <span>Pago 100% Seguro SSL</span>
             </div>
             <div className="flex items-center gap-1.5">

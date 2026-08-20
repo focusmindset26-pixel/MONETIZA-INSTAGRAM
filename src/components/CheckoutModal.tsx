@@ -39,7 +39,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
       onClick={onClose}
     >
       <div
-        className="bg-[#0E0E0E] border-2 border-[#D71912]/70 rounded-xl max-w-[540px] w-full p-6 relative shadow-[0_25px_60px_rgba(215,25,18,0.35)] max-h-[92vh] overflow-y-auto"
+        className="bg-[#0E0E0E] border-2 border-[#22C55E]/70 rounded-xl max-w-[540px] w-full p-6 relative shadow-[0_25px_60px_rgba(34,197,94,0.35)] max-h-[92vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -53,7 +53,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
           <div>
             {/* Header */}
             <div className="flex items-center gap-2 mb-1">
-              <span className="text-[11px] font-black text-[#F1261D] uppercase tracking-wider bg-[#D71912]/15 px-2.5 py-0.5 rounded border border-[#D71912]/40">
+              <span className="text-[11px] font-black text-[#22C55E] uppercase tracking-wider bg-[#22C55E]/15 px-2.5 py-0.5 rounded border border-[#22C55E]/40">
                 PAGO SEGURO 256-BIT SSL
               </span>
             </div>
@@ -96,7 +96,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
               </div>
               <div className="mt-3 pt-3 border-t border-white/10 flex justify-between items-center text-base font-extrabold text-white">
                 <span>Total a pagar:</span>
-                <span className="text-[#F1261D] font-['Bebas_Neue',sans-serif] text-2xl">US$14,99</span>
+                <span className="text-[#22C55E] font-['Bebas_Neue',sans-serif] text-2xl">US$14,99</span>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   placeholder="ejemplo@correo.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-[#141414] border border-white/15 rounded-md px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#F1261D] transition-colors"
+                  className="w-full bg-[#141414] border border-white/15 rounded-md px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#22C55E] transition-colors"
                 />
                 <span className="text-[10px] text-[#8F8F8F] mt-1 block">
                   Aquí te enviaremos los enlaces de descarga y credenciales.
@@ -128,7 +128,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   placeholder="Tu nombre"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full bg-[#141414] border border-white/15 rounded-md px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#F1261D] transition-colors"
+                  className="w-full bg-[#141414] border border-white/15 rounded-md px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#22C55E] transition-colors"
                 />
               </div>
 
@@ -143,7 +143,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     onClick={() => setPaymentMethod('card')}
                     className={`py-2.5 px-3 rounded-md border text-xs font-bold flex items-center justify-center gap-2 cursor-pointer transition-all ${
                       paymentMethod === 'card'
-                        ? 'border-[#F1261D] bg-[#D71912]/20 text-white'
+                        ? 'border-[#22C55E] bg-[#22C55E]/20 text-white'
                         : 'border-white/10 bg-[#141414] text-[#8F8F8F] hover:text-white'
                     }`}
                   >
@@ -154,7 +154,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                     onClick={() => setPaymentMethod('paypal')}
                     className={`py-2.5 px-3 rounded-md border text-xs font-bold flex items-center justify-center gap-2 cursor-pointer transition-all ${
                       paymentMethod === 'paypal'
-                        ? 'border-[#F1261D] bg-[#D71912]/20 text-white'
+                        ? 'border-[#22C55E] bg-[#22C55E]/20 text-white'
                         : 'border-white/10 bg-[#141414] text-[#8F8F8F] hover:text-white'
                     }`}
                   >
@@ -166,13 +166,13 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
               <button
                 type="submit"
                 disabled={isProcessing}
-                className="w-full flex items-center justify-center gap-2 bg-gradient-to-b from-[#F1261D] to-[#D71912] text-white font-['Plus_Jakarta_Sans',sans-serif] font-extrabold text-sm uppercase tracking-wide py-4 px-6 rounded-md shadow-[0_4px_25px_rgba(241,38,29,0.4)] hover:shadow-[0_6px_35px_rgba(241,38,29,0.6)] transition-all cursor-pointer disabled:opacity-50 mt-2"
+                className="w-full flex items-center justify-center gap-2 bg-gradient-to-b from-[#22C55E] to-[#16A34A] text-black font-['Plus_Jakarta_Sans',sans-serif] font-black text-sm uppercase tracking-wide py-4 px-6 rounded-md shadow-[0_4px_25px_rgba(34,197,94,0.4)] hover:shadow-[0_6px_35px_rgba(34,197,94,0.6)] transition-all cursor-pointer disabled:opacity-50 mt-2"
               >
                 {isProcessing ? (
                   <span>Procesando pago seguro...</span>
                 ) : (
                   <>
-                    <Lock className="w-4 h-4" />
+                    <Lock className="w-4 h-4 text-black" />
                     <span>DESCARGAR SISTEMA COMPLETO · US$14,99</span>
                   </>
                 )}
@@ -180,7 +180,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
             </form>
 
             <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-center gap-4 text-[11px] text-[#8F8F8F]">
-              <span className="flex items-center gap-1"><ShieldCheck className="w-3.5 h-3.5 text-[#F1261D]" /> Garantía 7 días</span>
+              <span className="flex items-center gap-1"><ShieldCheck className="w-3.5 h-3.5 text-[#22C55E]" /> Garantía 7 días</span>
               <span>·</span>
               <span>Soporte prioritario</span>
             </div>
@@ -209,15 +209,15 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
               </div>
               <div className="flex items-center justify-between p-2.5 rounded bg-[#141414] border border-white/5 text-xs">
                 <span className="text-white font-semibold">1. Guía Paso a Paso 7 Días (PDF)</span>
-                <span className="text-[#F1261D] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
+                <span className="text-[#22C55E] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
               </div>
               <div className="flex items-center justify-between p-2.5 rounded bg-[#141414] border border-white/5 text-xs">
                 <span className="text-white font-semibold">2. 100 Hooks Faceless (Cheatsheet)</span>
-                <span className="text-[#F1261D] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
+                <span className="text-[#22C55E] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
               </div>
               <div className="flex items-center justify-between p-2.5 rounded bg-[#141414] border border-white/5 text-xs">
                 <span className="text-white font-semibold">3. 50 Ideas de Contenido & 50 CTAs</span>
-                <span className="text-[#F1261D] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
+                <span className="text-[#22C55E] font-bold flex items-center gap-1"><Download className="w-3 h-3" /> Descargar</span>
               </div>
             </div>
 

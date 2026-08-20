@@ -80,10 +80,10 @@ export const SocialProofToast: React.FC = () => {
           : 'translate-y-6 opacity-0 scale-95 pointer-events-none'
       }`}
     >
-      <div className="bg-[#0C0C0C]/95 backdrop-blur-md border border-white/15 rounded-xl p-3.5 shadow-[0_15px_35px_rgba(0,0,0,0.8),0_0_20px_rgba(241,38,29,0.15)] flex items-start gap-3 relative group">
+      <div className="bg-[#0C0C0C]/95 backdrop-blur-md border border-white/15 rounded-xl p-3.5 shadow-[0_15px_35px_rgba(0,0,0,0.8),0_0_20px_rgba(34,197,94,0.15)] flex items-start gap-3 relative group">
         {/* Left Icon with pulse ring */}
-        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#F1261D] to-[#8A0F0A] flex items-center justify-center shrink-0 shadow-[0_0_12px_rgba(241,38,29,0.4)]">
-          <ShoppingBag className="w-5 h-5 text-white" />
+        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#22C55E] to-[#15803D] flex items-center justify-center shrink-0 shadow-[0_0_12px_rgba(34,197,94,0.4)]">
+          <ShoppingBag className="w-5 h-5 text-black" />
         </div>
 
         {/* Content */}
@@ -102,7 +102,7 @@ export const SocialProofToast: React.FC = () => {
 
           <div className="mt-1 flex items-center justify-between text-[10px] text-[#8F8F8F]">
             <span>{current.location}, {current.country}</span>
-            <span className="font-medium text-[#F1261D]">{current.timeAgo}</span>
+            <span className="font-medium text-[#22C55E]">{current.timeAgo}</span>
           </div>
         </div>
 

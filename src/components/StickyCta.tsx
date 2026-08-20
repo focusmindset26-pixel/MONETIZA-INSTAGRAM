@@ -31,7 +31,7 @@ export const StickyCta: React.FC<StickyCtaProps> = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#080808]/95 backdrop-blur-md border-t border-[#D71912]/40 py-3 px-4 shadow-[0_-10px_30px_rgba(0,0,0,0.8)] animate-fadeIn">
+    <div className="fixed bottom-0 left-0 right-0 z-40 bg-[#080808]/95 backdrop-blur-md border-t border-[#22C55E]/40 py-3 px-4 shadow-[0_-10px_30px_rgba(0,0,0,0.8)] animate-fadeIn">
       <div className="max-w-[860px] mx-auto flex flex-row items-center justify-between gap-3">
         <div className="hidden sm:flex flex-col">
           <span className="font-['Bebas_Neue',sans-serif] text-lg text-white tracking-wide leading-none">
@@ -50,9 +50,9 @@ export const StickyCta: React.FC<StickyCtaProps> = () => {
 
           <button
             onClick={handleScrollToOffer}
-            className="flex items-center justify-center gap-1.5 bg-gradient-to-b from-[#F1261D] to-[#D71912] text-white font-['Plus_Jakarta_Sans',sans-serif] font-extrabold text-xs uppercase tracking-wide py-2.5 px-4 sm:px-5 rounded border border-white/20 shadow-[0_2px_15px_rgba(241,38,29,0.4)] hover:shadow-[0_4px_25px_rgba(241,38,29,0.6)] cursor-pointer transition-all"
+            className="flex items-center justify-center gap-1.5 bg-gradient-to-b from-[#22C55E] to-[#16A34A] text-black font-['Plus_Jakarta_Sans',sans-serif] font-black text-xs uppercase tracking-wide py-2.5 px-4 sm:px-5 rounded border border-white/30 shadow-[0_2px_15px_rgba(34,197,94,0.4)] hover:shadow-[0_4px_25px_rgba(34,197,94,0.6)] cursor-pointer transition-all"
           >
-            <Zap className="w-3.5 h-3.5 fill-white text-white" />
+            <Zap className="w-3.5 h-3.5 fill-black text-black" />
             <span>ACCESO INMEDIATO</span>
           </button>
         </div>

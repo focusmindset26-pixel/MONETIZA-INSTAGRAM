@@ -12,7 +12,7 @@ export const Header: React.FC = () => {
           loading="eager"
           decoding="async"
           referrerPolicy="no-referrer"
-          className="w-10 h-10 rounded-full object-cover border border-white/20 shadow-[0_0_12px_rgba(241,38,29,0.35)] transition-transform duration-300 hover:scale-105"
+          className="w-10 h-10 rounded-full object-cover border border-white/20 shadow-[0_0_12px_rgba(34,197,94,0.35)] transition-transform duration-300 hover:scale-105"
         />
         <div className="flex flex-col text-left">
           <span className="font-['Bebas_Neue',sans-serif] text-xl tracking-[1.5px] text-[#F5F5F5] leading-none">

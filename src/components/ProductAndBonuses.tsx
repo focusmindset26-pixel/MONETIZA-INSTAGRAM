@@ -18,9 +18,9 @@ export const ProductAndBonuses: React.FC<ProductAndBonusesProps> = ({
         </h2>
 
         {/* Marco Visual del Producto Principal */}
-        <div className="bg-gradient-to-b from-[#141414] to-[#080808] border border-[#D71912]/40 rounded-xl p-4 sm:p-5 max-w-[500px] mx-auto my-8 shadow-[0_20px_50px_rgba(0,0,0,0.9),0_0_35px_rgba(215,25,18,0.15)] text-center relative group">
+        <div className="bg-gradient-to-b from-[#141414] to-[#080808] border border-[#22C55E]/40 rounded-xl p-4 sm:p-5 max-w-[500px] mx-auto my-8 shadow-[0_20px_50px_rgba(0,0,0,0.9),0_0_35px_rgba(34,197,94,0.15)] text-center relative group">
           <div className="flex justify-between items-center mb-3 pb-2 border-b border-white/10 text-xs font-bold text-[#8F8F8F] tracking-[1px]">
-            <span className="text-[#F1261D]">ENTREGABLE PRINCIPAL</span>
+            <span className="text-[#22C55E] font-extrabold">ENTREGABLE PRINCIPAL</span>
             <div className="text-white">SISTEMA FACELESS DE 7 DÍAS</div>
           </div>
           <div
@@ -28,7 +28,7 @@ export const ProductAndBonuses: React.FC<ProductAndBonusesProps> = ({
             className="w-full rounded-lg overflow-hidden border border-white/10 bg-black cursor-pointer"
           >
             <img
-              src="https://i.imgur.com/PrG2pdM.png"
+              src="https://i.imgur.com/jWxV4A5.png"
               alt="Monetiza Instagram - Sistema Faceless (Entregable Principal)"
               className="w-full h-auto block transition-transform duration-300 group-hover:scale-[1.015]"
               loading="lazy"
@@ -43,7 +43,7 @@ export const ProductAndBonuses: React.FC<ProductAndBonusesProps> = ({
           {BONUSES.map((bonus) => (
             <div
               key={bonus.id}
-              className="bg-gradient-to-b from-[#141414] to-[#080808] border border-[#D71912]/40 rounded-xl p-4 sm:p-5 flex flex-col justify-between transition-all duration-300 hover:border-white/20 hover:-translate-y-1 shadow-[0_20px_50px_rgba(0,0,0,0.9),0_0_35px_rgba(215,25,18,0.15)] group"
+              className="bg-gradient-to-b from-[#141414] to-[#080808] border border-[#22C55E]/40 rounded-xl p-4 sm:p-5 flex flex-col justify-between transition-all duration-300 hover:border-white/20 hover:-translate-y-1 shadow-[0_20px_50px_rgba(0,0,0,0.9),0_0_35px_rgba(34,197,94,0.15)] group"
             >
               <div>
                 <div className="flex justify-between items-center mb-3 pb-2 border-b border-white/10 text-xs font-bold text-[#8F8F8F] tracking-[1px]">

@@ -6,7 +6,7 @@ export const BONUSES: BonusItem[] = [
     tag: 'BONUS 1',
     title: '100 HOOKS FACELESS',
     desc: 'Deja de pensar cómo empezar cada publicación.',
-    image: 'https://i.imgur.com/17tsJO4.jpg',
+    image: 'https://i.imgur.com/ule7XVJ.png',
     samples: [
       '“3 hábitos que te están costando $1,000 al mes sin que te des cuenta...”',
       '“Si pudiera empezar de cero en Instagram hoy, esto es exactamente lo que haría...”',
@@ -20,7 +20,7 @@ export const BONUSES: BonusItem[] = [
     tag: 'BONUS 2',
     title: '50 IDEAS DE CONTENIDO FACELESS',
     desc: 'Deja de preguntarte qué publicar.',
-    image: 'https://i.imgur.com/xUIxWIc.png',
+    image: 'https://i.imgur.com/TfBwtgR.png',
     samples: [
       'Carrusel: Las 5 herramientas de IA gratuitas para crear 30 días de contenido en 2 horas.',
       'Reel Estético: Timelapse de trabajo en laptop + texto reflexivo sobre disciplina financiera.',
@@ -34,7 +34,7 @@ export const BONUSES: BonusItem[] = [
     tag: 'BONUS 3',
     title: '50 CTA QUE CONVIERTEN',
     desc: 'Dile a tu audiencia qué hacer después.',
-    image: 'https://i.imgur.com/eDRngjN.png',
+    image: 'https://i.imgur.com/L8ny9oh.png',
     samples: [
       '“Comenta la palabra ‘SISTEMA’ y te envío la guía completa directo a tus mensajes privados.”',
       '“Toca el enlace en mi biografía para descargar la plantilla antes de que cierre el acceso.”',
