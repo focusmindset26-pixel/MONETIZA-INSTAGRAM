@@ -36,7 +36,7 @@ export default function App() {
           onImageClick={() => setIsImageModalOpen(true)}
         />
 
-        {/* 1.5. Opportunity Connection Section (CÓMO CONECTARLAS) */}
+        {/* 1.6. Opportunity Connection Section (CÓMO CONECTARLAS) */}
         <OpportunityConnectionSection />
 
         {/* 2. Time + Achievement Section (TIEMPO + LOGRO) */}
