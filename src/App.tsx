@@ -1,7 +1,6 @@
 import React, { useState, Suspense, lazy } from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
-import { NewRulesSection } from './components/NewRulesSection';
 import { OpportunityConnectionSection } from './components/OpportunityConnectionSection';
 import { TimeAchievementSection } from './components/TimeAchievementSection';
 import { TransformationSection } from './components/TransformationSection';
@@ -37,10 +36,7 @@ export default function App() {
           onImageClick={() => setIsImageModalOpen(true)}
         />
 
-        {/* 1.5. New Rules Section (IA + DISTRIBUCIÓN + MONETIZACIÓN) */}
-        <NewRulesSection />
-
-        {/* 1.6. Opportunity Connection Section (CÓMO CONECTARLAS) */}
+        {/* 1.5. Opportunity Connection Section (CÓMO CONECTARLAS) */}
         <OpportunityConnectionSection />
 
         {/* 2. Time + Achievement Section (TIEMPO + LOGRO) */}
