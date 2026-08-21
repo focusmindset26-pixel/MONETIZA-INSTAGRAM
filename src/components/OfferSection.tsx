@@ -15,73 +15,73 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             <Zap className="w-3 h-3 fill-[#22C55E]" /> OFERTA POR TIEMPO LIMITADO
           </div>
 
-          <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2rem,5vw,3rem)] leading-[0.95] text-white uppercase mb-3">
+          <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2.1rem,5vw,3.2rem)] leading-[0.98] text-white uppercase tracking-[0.5px] mb-3">
             EMPIEZA A CONSTRUIR HOY.
           </h2>
-          <div className="max-w-[520px] mx-auto space-y-1.5">
-            <p className="font-['Bebas_Neue',sans-serif] text-lg sm:text-xl text-white tracking-[0.5px] uppercase leading-tight">
-              NO NECESITAS MILES DE SEGUIDORES. NECESITAS CONSTRUIR UN ACTIVO DIGITAL.
+          <div className="max-w-[560px] mx-auto space-y-1">
+            <p className="font-['Bebas_Neue',sans-serif] text-xl sm:text-2xl text-[#22C55E] tracking-[0.5px] uppercase leading-tight">
+              MONETIZA INSTAGRAM
             </p>
-            <p className="text-xs sm:text-sm text-[#C7C7C7] leading-relaxed">
-              Una cuenta con dirección, contenido estratégico y una oferta digital capaz de convertir atención en oportunidades de ingresos.
+            <p className="text-xs sm:text-sm text-[#C7C7C7] font-medium leading-relaxed">
+              + 3 HERRAMIENTAS PARA REDUCIR EL TIEMPO ENTRE PENSAR Y EJECUTAR.
             </p>
           </div>
 
-          <ul className="list-none flex flex-col gap-2.5 my-6 sm:my-8 text-left text-[0.95rem] font-semibold text-[#F5F5F5]">
-            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
+          <ul className="list-none flex flex-col gap-2.5 my-6 sm:my-8 text-left text-[0.92rem] font-semibold text-[#F5F5F5]">
+            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-[#22C55E] font-bold text-lg">✓</span>
-                <span>MONETIZA INSTAGRAM (Sistema 7 Días)</span>
+                <span className="text-white font-bold">MONETIZA INSTAGRAM</span>
               </div>
-              <span className="text-xs text-[#8F8F8F] font-normal">Valor US$42</span>
+              <span className="text-xs text-[#22C55E] sm:text-right pl-7 sm:pl-0 font-medium">
+                EL SISTEMA Y LA RUTA.
+              </span>
             </li>
-            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
+            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>100 Hooks Faceless</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="line-through text-xs text-[#8F8F8F]">US$9,99</span>
-                <span className="text-xs font-black text-[#22C55E] bg-[#22C55E]/15 border border-[#22C55E]/40 px-2 py-0.5 rounded tracking-wider shadow-[0_0_8px_rgba(34,197,94,0.25)]">
-                  GRATIS
-                </span>
-              </div>
+              <span className="text-xs text-[#A3A3A3] sm:text-right pl-7 sm:pl-0 font-normal">
+                Para no empezar cada contenido desde cero.
+              </span>
             </li>
-            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
+            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>50 Ideas de Contenido Faceless</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="line-through text-xs text-[#8F8F8F]">US$9,99</span>
-                <span className="text-xs font-black text-[#22C55E] bg-[#22C55E]/15 border border-[#22C55E]/40 px-2 py-0.5 rounded tracking-wider shadow-[0_0_8px_rgba(34,197,94,0.25)]">
-                  GRATIS
-                </span>
-              </div>
+              <span className="text-xs text-[#A3A3A3] sm:text-right pl-7 sm:pl-0 font-normal">
+                Para dejar de preguntarte qué publicar.
+              </span>
             </li>
-            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex items-center justify-between">
+            <li className="bg-black/60 border border-white/10 p-3.5 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-2">
               <div className="flex items-center gap-3">
                 <span className="text-[#22C55E] font-bold text-lg">+</span>
                 <span>50 CTA Que Convierten</span>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="line-through text-xs text-[#8F8F8F]">US$9,99</span>
-                <span className="text-xs font-black text-[#22C55E] bg-[#22C55E]/15 border border-[#22C55E]/40 px-2 py-0.5 rounded tracking-wider shadow-[0_0_8px_rgba(34,197,94,0.25)]">
-                  GRATIS
-                </span>
-              </div>
+              <span className="text-xs text-[#A3A3A3] sm:text-right pl-7 sm:pl-0 font-normal">
+                Para darle una dirección a la atención que generas.
+              </span>
             </li>
           </ul>
 
           {/* Price Tag */}
-          <div className="flex flex-col items-center mb-6">
-            <div className="text-xs uppercase text-[#8F8F8F] line-through font-bold">
-              PRECIO REGULAR: US$42,00
-            </div>
+          <div className="flex flex-col items-center mb-5">
             <div className="font-['Bebas_Neue',sans-serif] text-6xl sm:text-7xl leading-none text-white tracking-wide my-1">
               US$14,99
             </div>
-            <div className="text-xs text-[#C7C7C7]">Pago único · Sin suscripciones recurrentes</div>
+            <div className="text-xs text-[#A3A3A3] mb-3">Pago único · Sin suscripciones recurrentes</div>
+            
+            {/* Microcopy de Valor */}
+            <div className="bg-[#111111] border border-white/10 rounded-lg py-2.5 px-4 max-w-[480px] w-full text-center">
+              <p className="text-[11px] sm:text-xs font-bold text-[#E5E5E5] uppercase tracking-wide">
+                MENOS QUE MUCHAS HERRAMIENTAS MENSUALES.
+              </p>
+              <p className="text-[10px] sm:text-[11px] text-[#22C55E] font-semibold uppercase tracking-wider mt-0.5">
+                UNA RUTA QUE PUEDES REUTILIZAR UNA Y OTRA VEZ.
+              </p>
+            </div>
           </div>
 
           <a
@@ -91,7 +91,7 @@ export const OfferSection: React.FC<OfferSectionProps> = () => {
             className="w-full flex items-center justify-center gap-2 bg-gradient-to-b from-[#22C55E] to-[#16A34A] text-black font-['Plus_Jakarta_Sans',sans-serif] font-black text-base sm:text-lg uppercase tracking-[0.5px] py-4 px-6 rounded-md border border-white/30 shadow-[0_4px_25px_rgba(34,197,94,0.4)] hover:shadow-[0_6px_35px_rgba(34,197,94,0.65)] hover:-translate-y-0.5 active:translate-y-0 transition-all cursor-pointer text-center"
           >
             <Download className="w-5 h-5 text-black" />
-            <span>QUIERO EL SISTEMA COMPLETO</span>
+            <span>QUIERO EMPEZAR A CONSTRUIR</span>
           </a>
 
           {/* Trust / Payment methods image right below the button */}
