@@ -41,19 +41,21 @@ export const TransformationSection: React.FC = () => {
   ];
 
   const beforeItems = [
-    'No sé qué publicar.',
-    'No sé qué vender.',
-    'Cambio de estrategia.',
-    'Publico sin dirección.',
-    'Miro métricas sin saber qué hacer.'
+    'Consumes contenido.',
+    'Pruebas herramientas de IA sin dirección.',
+    'No sabes qué publicar.',
+    'Improvisas.',
+    'Saltas de estrategia.',
+    'No sabes qué vender.'
   ];
 
   const afterItems = [
-    'Sé a quién hablo.',
-    'Sé qué contenido crear.',
-    'Tengo una monetización elegida.',
-    'Tengo una oferta y CTA.',
-    'Sé qué medir y mejorar.'
+    'Sabes qué construir.',
+    'Utilizas IA con propósito.',
+    'Tienes una cuenta faceless.',
+    'Produces contenido con dirección.',
+    'Construyes audiencia.',
+    'Tienes una ruta de monetización.'
   ];
 
   const roadmapSteps = [
@@ -82,7 +84,7 @@ export const TransformationSection: React.FC = () => {
 
         {/* HEADLINE */}
         <h2 className="font-['Bebas_Neue',sans-serif] text-[clamp(2.1rem,5vw,3.2rem)] leading-[0.98] text-[#F5F5F5] uppercase tracking-[0.5px] max-w-[760px] mx-auto mb-4">
-          PASAS DE IMPROVISAR A CONSTRUIR CON UN SISTEMA
+          PASAS DE CONSUMIR Y PROBAR... <span className="block text-[#22C55E] mt-1 sm:inline">A CONSTRUIR CON DIRECCIÓN.</span>
         </h2>
 
         {/* SUBHEADLINE */}
@@ -226,15 +228,13 @@ export const TransformationSection: React.FC = () => {
         </div>
 
         {/* ==========================================================================
-            MENSAJE CENTRAL
+            MENSAJE CENTRAL / REMATE
            ========================================================================== */}
         <div className="max-w-[760px] mx-auto bg-[#0E0E0E] border border-white/10 py-6 px-5 rounded-lg text-center">
           <p className="font-['Bebas_Neue',sans-serif] text-xl sm:text-2xl md:text-3xl tracking-[0.5px] text-[#F5F5F5] uppercase leading-snug">
-            NO CAMBIAS POR SABER MÁS.{' '}
-            <span className="block mt-1">
-              CAMBIAS POR EJECUTAR LAS{' '}
-              <span className="text-[#22C55E]">DECISIONES CORRECTAS</span> EN EL{' '}
-              <span className="text-[#22C55E]">ORDEN CORRECTO</span>.
+            NO SE TRATA DE SABER MÁS.{' '}
+            <span className="block text-[#22C55E] mt-1">
+              SE TRATA DE PODER EJECUTAR MEJOR.
             </span>
           </p>
         </div>

@@ -2,7 +2,10 @@ export interface BonusItem {
   id: string;
   tag: string;
   title: string;
+  mainBenefit?: string;
   desc: string;
+  eliminates?: string;
+  transformation?: { from: string; to: string };
   samples: string[];
   image?: string;
 }

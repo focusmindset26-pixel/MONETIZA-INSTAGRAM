@@ -5,7 +5,13 @@ export const BONUSES: BonusItem[] = [
     id: 'hooks',
     tag: 'BONUS 1',
     title: '100 HOOKS FACELESS',
-    desc: 'Deja de pensar cómo empezar cada publicación.',
+    mainBenefit: 'NO EMPIECES CADA CONTENIDO DESDE CERO.',
+    desc: 'Utiliza estructuras de apertura listas para adaptar a tu nicho y captar atención más rápido.',
+    eliminates: '“No sé cómo empezar.”',
+    transformation: {
+      from: 'Mirar una pantalla en blanco',
+      to: 'Tener un punto de partida claro'
+    },
     image: 'https://i.imgur.com/ule7XVJ.png',
     samples: [
       '“3 hábitos que te están costando $1,000 al mes sin que te des cuenta...”',
@@ -19,7 +25,13 @@ export const BONUSES: BonusItem[] = [
     id: 'ideas',
     tag: 'BONUS 2',
     title: '50 IDEAS DE CONTENIDO FACELESS',
-    desc: 'Deja de preguntarte qué publicar.',
+    mainBenefit: 'DEJA DE PREGUNTARTE QUÉ PUBLICAR.',
+    desc: 'Ten ángulos de contenido listos para adaptar y convertir problemas, deseos e ideas en publicaciones.',
+    eliminates: '“No tengo ideas.”',
+    transformation: {
+      from: 'Improvisar cada publicación',
+      to: 'Tener un banco de contenido para ejecutar'
+    },
     image: 'https://i.imgur.com/TfBwtgR.png',
     samples: [
       'Carrusel: Las 5 herramientas de IA gratuitas para crear 30 días de contenido en 2 horas.',
@@ -33,7 +45,13 @@ export const BONUSES: BonusItem[] = [
     id: 'cta',
     tag: 'BONUS 3',
     title: '50 CTA QUE CONVIERTEN',
-    desc: 'Dile a tu audiencia qué hacer después.',
+    mainBenefit: 'DALE UNA DIRECCIÓN A LA ATENCIÓN QUE GENERAS.',
+    desc: 'Utiliza llamadas a la acción para guiar a tu audiencia hacia interacción, clics, mensajes y oportunidades de monetización.',
+    eliminates: '“No sé qué hacer después de conseguir atención.”',
+    transformation: {
+      from: 'Publicar y esperar',
+      to: 'Darle a la audiencia un siguiente paso claro'
+    },
     image: 'https://i.imgur.com/L8ny9oh.png',
     samples: [
       '“Comenta la palabra ‘SISTEMA’ y te envío la guía completa directo a tus mensajes privados.”',
